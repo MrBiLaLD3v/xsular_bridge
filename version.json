@@ -1,1 +1,24 @@
 
+{
+  "latest": "1.0.0",
+  "changelogs": {
+    "0.9.0": {
+      "Providers": [
+        "Added QBox framework provider",
+        "Added ox_inventory and qb-inventory adapters"
+      ],
+      "Core": [
+        "Introduced the capability system",
+        "Added /xsbridge diagnostics command"
+      ]
+    },
+    "1.0.0": {
+      "Phone": [
+        "Added lb-phone, NPWD, and qs-smartphone providers"
+      ],
+      "Bug fixes": [
+        "Fixed phone provider detection when the phone resource starts after the bridge"
+      ]
+    }
+  }
+}

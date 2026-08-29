@@ -1,4 +1,23 @@
 {
-  "latest": "1.5.0",
-  "download": "https://portal.cfx.re/assets/granted-assets"
+  "latest": "1.6.0",
+  "download": "https://portal.cfx.re/assets/granted-assets",
+  "changelogs": {
+    "1.6.0": {
+      "API": [
+        "Dual public surface: flat exports and category tables stay in sync",
+        "RegisterUsableItem on Inventory, Framework spec, and a flat export",
+        "22 provider categories (boss menu, doorlock, housing, phone, shops, skills, weather, dialogue, plus the original 14)"
+      ],
+      "Callbacks": [
+        "Consumers register and await through @xsular_bridge/init.lua (per-name net events)",
+        "Do not pass Lua functions through GetBridge() nested methods — FiveM will not keep them",
+        "Bridge-internal callbacks still use modules/callback/shared.lua"
+      ],
+      "Providers": [
+        "Extra inventory adapters: tgiann, origen, core, jpr, one",
+        "Extra notify / progress / menu / input / textui / fuel / vehiclekeys / banking coverage",
+        "Appearance server facade, dispatch extras, zone PolyZone + native scheduler"
+      ]
+    }
+  }
 }

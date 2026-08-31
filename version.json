@@ -1,7 +1,17 @@
 {
-  "latest": "1.6.0",
+  "latest": "1.7.0",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "changelogs": {
+    "1.7.0": {
+      "UI": [
+        "Config.UseXSularUIPack pins Notify/Progress/Menu/Input/TextUI/Alert/Objectives/Radial to xsular_uipack",
+        "New facades: XSBridge.Alert, Objectives, Radial (plus /xsui test commands)"
+      ],
+      "Providers": [
+        "uipack adapters for notify, progress, menu, input, textui, alert, objectives, radial",
+        "sleepless_interact target, ox inventory / dispatch payload / qbcore-qbox adapter fixes"
+      ]
+    },
     "1.6.0": {
       "API": [
         "Dual public surface: flat exports and category tables stay in sync",

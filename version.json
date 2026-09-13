@@ -1,8 +1,8 @@
 {
-  "latest": "2.0.0",
+  "latest": "2.1.0",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "changelogs": {
-    "2.0.0": {
+    "2.1.0": {
       "Breaking": [
         "ESX (es_extended) framework support removed. Supported frameworks: QBCore, Qbox, standalone",
         "Removed providers: framework esx, notify esx, appearance esx (esx_skin / skinchanger), bossmenu esx (esx_society), housing esx (esx_property), fuel esxsna (esx-sna-fuel)",

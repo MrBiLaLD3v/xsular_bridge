@@ -2,7 +2,7 @@
     "latest": "2.3.0",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelogs": {
-      "2.2.0": {
+      "2.3.0": {
         "Updated": [
           "xsular_bridge 2.2.0 — same public API (`@xsular_bridge/init.lua`, flat exports, category tables)",
           "Central version catalog: one GitHub fetch reports every started XSular resource"

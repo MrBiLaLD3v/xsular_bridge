@@ -1,11 +1,32 @@
 {
-  "latest": "1.7.0",
+  "latest": "2.0.0",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "changelogs": {
+    "2.0.0": {
+      "Breaking": [
+        "ESX (es_extended) framework support removed. Supported frameworks: QBCore, Qbox, standalone",
+        "Removed providers: framework esx, notify esx, appearance esx (esx_skin / skinchanger), bossmenu esx (esx_society), housing esx (esx_property), fuel esxsna (esx-sna-fuel)",
+        "Config.Framework = 'esx' now resolves to standalone",
+        "Dead aliases removed (Player.GetPlayer, Inventory.Get/ItemList/RegisterStash, Notify.SendNotify, Progress.Open, Dispatch.SendAlert, VehicleKeys.GiveKeys, Banking money aliases, ...) - see docs/MIGRATION.md",
+        "config/custom.lua moved to opensource/custom.lua; opensource/client|server.lua moved to opensource/hooks/"
+      ],
+      "Fixed": [
+        "Providers activate synchronously at load; IsReady() export and xsular_bridge:ready event",
+        "Extra dispatch adapters (bub, emergency, fd, kartik, lb, piotreq, redutzu, tk, wasabi) now receive alerts",
+        "oxmysql provider no longer runs an idle Wait(0) worker",
+        "Config.Permission auto / ace / framework / custom now behave differently"
+      ],
+      "Added": [
+        "XSBridge.Prompt (entity / model key prompt), Events.PlayerRevived, server Player.IsDead, Inventory.CreateStash coords",
+        "core/exports.lua single export spec with new flat shortcuts (GetMoney, AddItem, HasPermission, Notify, ...)",
+        "opensource/hooks, opensource/custom.lua, opensource/providers slot, escrow_ignore for editable files",
+        "Docs: INTEGRATION, DEVELOPER_GUIDE, PROVIDERS; Config.VersionCheck; Debug=false and empty webhook by default"
+      ]
+    },
     "1.7.0": {
       "UI": [
-        "Config.UseXSularUIPack pins Notify/Progress/Menu/Input/TextUI/Alert/Objectives/Radial to xsular_uipack",
-        "New facades: XSBridge.Alert, Objectives, Radial (plus /xsui test commands)"
+        "uipack pins for Notify/Progress/Menu/Input/TextUI/Alert/Objectives",
+        "New facades: XSBridge.Alert, Objectives (plus /xsui test commands)"
       ],
       "Providers": [
         "uipack adapters for notify, progress, menu, input, textui, alert, objectives, radial",

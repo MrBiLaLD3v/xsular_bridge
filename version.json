@@ -1,68 +1,16 @@
 {
-  "latest": "2.5.0",
-  "download": "https://portal.cfx.re/assets/granted-assets",
-  "changelogs": {
-    "2.2.0": {
-      "Updated": [
-        "xsular_bridge 2.2.0 — same public API (`@xsular_bridge/init.lua`, flat exports, category tables)",
-        "Central version catalog: one GitHub fetch reports every started XSular resource"
-      ],
-      "Fixed": [
-        "Version checker banner no longer reports a newer 2.5.0 than the shipped resource",
-        "Changelog on OUTDATED now shows only this release (update + stability fixes)"
-      ]
-    }
-  },
-  "resources": {
-    "xsular_bridge": {
-      "latest": "2.2.0",
-      "product": "XSular Bridge",
-      "channel": "stable"
-    },
-    "xsular_mBanking": {
-      "latest": "1.0.0",
-      "product": "XSular Banking",
-      "channel": "stable"
-    },
-    "xsular_uipack": {
-      "latest": "0.1.0",
-      "product": "XSular UI Pack",
-      "channel": "stable"
-    },
-    "xsular_xGangs": {
-      "latest": "1.0.2",
-      "product": "XSular xGangs",
-      "channel": "stable"
-    },
-    "xsular_mMultiCharacter": {
-      "latest": "1.0.0",
-      "product": "XSular Multi Character",
-      "channel": "stable"
-    },
-    "xsular_beanmachine": {
-      "latest": "1.2.0",
-      "product": "XSular Bean Machine",
-      "channel": "stable"
-    },
-    "xsular_cryptomining": {
-      "latest": "1.0.0",
-      "product": "XSular Crypto Mining",
-      "channel": "stable"
-    },
-    "xsular_tattoo": {
-      "latest": "1.0.2",
-      "product": "XSular Tattoo",
-      "channel": "stable"
-    },
-    "xsular_rental": {
-      "latest": "1.0.1",
-      "product": "XSular Rental",
-      "channel": "stable"
-    },
-    "xsular_ui": {
-      "latest": "2.1.0",
-      "product": "XSular UI",
-      "channel": "stable"
+    "latest": "2.3.0",
+    "download": "https://portal.cfx.re/assets/granted-assets",
+    "changelogs": {
+      "2.2.0": {
+        "Updated": [
+          "xsular_bridge 2.2.0 — same public API (`@xsular_bridge/init.lua`, flat exports, category tables)",
+          "Central version catalog: one GitHub fetch reports every started XSular resource"
+        ],
+        "Fixed": [
+          "Version checker banner no longer reports a newer 2.5.0 than the shipped resource",
+          "Changelog on OUTDATED now shows only this release (update + stability fixes)"
+        ]
+      }
     }
   }
-}

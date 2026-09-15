@@ -1,7 +1,17 @@
 {
-    "latest": "2.3.0",
+    "latest": "2.4.0",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelogs": {
+      "2.4.0": {
+        "Added": [
+          "Appearance.Load / LoadMany / Wipe — stored ped model + skin from Config.Appearance",
+          "illenium / fivem / qb read playerskins (model + skin) then ESX users.skin",
+          "rcore_clothing uses getSkinByIdentifier"
+        ],
+        "Updated": [
+          "Preview apply uses the active clothing resource (setPedAppearance / loadPlayerClothing / setPedSkin)"
+        ]
+      },
       "2.3.0": {
         "Updated": [
           "xsular_bridge 2.2.0 — same public API (`@xsular_bridge/init.lua`, flat exports, category tables)",
